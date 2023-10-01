@@ -1,0 +1,213 @@
+* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background image inspired by Cataclysm */
+body {
+    background-image: url('../img/cata.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+nav ul li {
+    text-align: center;
+    margin: 0 20px; /* Add spacing between items (adjust as needed) */
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6600; /* Orange color inspired by WoW */
+}
+
+/* Style the sections */
+section {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style headings */
+h1, h2 {
+    color: #ff6600; /* Orange color inspired by WoW */
+}
+
+/* Style images */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+#play {
+    background: url('cataclysm-background.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.cta-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cta-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.play-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6600; /* Orange color inspired by WoW */
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.play-button:hover {
+    background-color: #d44e00; /* Darker orange color on hover */
+}
+
+/* CSS animation for button hover effect */
+.play-button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+@keyframes pulsate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.play-button:hover {
+    animation: pulsate 1s infinite; /* Apply the animation on hover */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha (transparency) value */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#media img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 10px 0; /* Add spacing between images */
+    max-height: 300px; /* Limit the maximum height of the images; adjust as needed */
+}
+
+#explore {
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha (transparency) value */
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#media {
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha (transparency) value */
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#server-info {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust the alpha (transparency) value and color as needed */
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+#news {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px 0; /* Adjust the top and bottom margin */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 20px), 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.news-item {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
